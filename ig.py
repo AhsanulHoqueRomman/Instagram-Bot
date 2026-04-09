@@ -19,8 +19,6 @@ class InstagramBot:
     def get_profile_info(self, username):
         return self.bot.get_user_info(username)
 
-    def edit_profile(self, bio):
-        print("Edit profile not supported directly in instabot")
 
     # Follow System
     def follow(self, user):
