@@ -34,14 +34,6 @@ class InstagramBot:
             self.bot.follow(user)
             self.random_delay()
 
-    def unfollow_non_followers(self):
-        print("Custom logic needed")
-
-    def get_followers(self):
-        return self.bot.get_user_followers(self.bot.user_id)
-
-    def get_following(self):
-        return self.bot.get_user_following(self.bot.user_id)
 
     # Like System
     def like_post(self, post_id):
